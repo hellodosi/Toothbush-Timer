@@ -40,7 +40,8 @@ However, you should choose a transparent filament for the front cover so that th
 A version for multi-color printing and for single-color printing will be available on Makerworld.
 
 ## Wiring the electronics
-(Instructions will follow soon)
+Schematic representation of the wiring diagram
+![Schematic representation of the wiring diagram](/assets/circuit.png)
 
 ## Building all together
 
