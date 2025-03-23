@@ -56,3 +56,20 @@ The button is usually fastened with a screw nut. For space reasons, however, thi
 The upper part of the housing can then be attached. This part is fastened with 4 screws. The LED ring can then be clipped into the holder. This is relatively close to the button, which is why I recommend masking the soldering points on the LED ring with some insulating tape to avoid the risk of a short circuit.
 ![View of the middle part of the housing](/assets/timer-opened-2.jpg)
 
+## Programming the Board
+
+To program the board (Arduino Nano), the board must be connected to the computer via USB. The code can then be flashed to the board via the Arduino IDE.
+The IDE can be found at <https://www.arduino.cc/en/software/>.
+The source code can be found in the file time.ino and can be adapted as required.
+
+    const int NEOPIXEL_PIN = 2;
+    const int BUTTON_PIN = 6;
+    const int NUM_PIXELS = 16; // Number of Pixels on the ring
+The pin assignment used can be specified here if other pins were used.
+
+    const unsigned long TIMER_DURATION_SECONDS = 120; // Timer duration in seconds (2 minutes)
+    const unsigned long DEBOUNCE_DELAY_MS = 50;    // Debounce time for the button
+    const unsigned long LONG_PRESS_DURATION_MS = 1000; // Duration for long keystroke in milliseconds
+    const unsigned long BLINK_INTERVAL_MS = 500;    // Flashing interval in milliseconds
+    const unsigned long FINISHED_ANIMATION_DURATION_MS = 10000; // Duration of the finished animation
+The duration of the timer and other time intervals can be set here.
