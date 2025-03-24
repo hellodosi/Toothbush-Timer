@@ -5,6 +5,7 @@
 A timer for the duration of tooth brushing for children based on an Arduino Nano.
 My child hates brushing his teeth and therefore usually brushes very briefly so that he can finish faster. We all know that's not the idea behind it and it's probably similar for your children.
 That's why I designed this timer, which shows the time with colorful LEDs and rewards you with a rainbow at the end.
+
 ![Timer in Action - Accelerated display](/assets/timer.gif)
 
 The timer is easy to use: Just a switch to turn it on and off, and a button to start/pause/reset.
@@ -41,6 +42,7 @@ A version for multi-color printing and for single-color printing will be availab
 
 ## Wiring the electronics
 Schematic representation of the wiring diagram
+
 ![Schematic representation of the wiring diagram](/assets/circuit.png)
 
 ## Building all together
@@ -48,12 +50,14 @@ Schematic representation of the wiring diagram
 Once the housing has been printed, everything can be assembled.
 
 The housing consists of 3 parts. The electronic parts are stored in the lower part. If necessary, you can and should fix them with a drop of hot glue so that they do not come loose. Please do not glue the battery with hot glue. There is a risk of damaging the battery. The battery is also held in place by the upper part of the housing.
+
 ![View of the lower part of the housing](/assets/timer-opened.jpg)
 
 For the switch, it may be necessary to shorten one of the fastening eyelets with the cutter.
 The button is usually fastened with a screw nut. For space reasons, however, this cannot be rotated in the housing. I therefore recommend attaching the button with hot glue as well.
 
 The upper part of the housing can then be attached. This part is fastened with 4 screws. The LED ring can then be clipped into the holder. This is relatively close to the button, which is why I recommend masking the soldering points on the LED ring with some insulating tape to avoid the risk of a short circuit.
+
 ![View of the middle part of the housing](/assets/timer-opened-2.jpg)
 
 ## Programming the Board
