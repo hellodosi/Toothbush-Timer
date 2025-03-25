@@ -1,10 +1,9 @@
 # Toothbush-Timer
 
-(Documentation is still in progress)
-
 A timer for the duration of tooth brushing for children based on an Arduino Nano.
 My child hates brushing his teeth and therefore usually brushes very briefly so that he can finish faster. We all know that's not the idea behind it and it's probably similar for your children.
 That's why I designed this timer, which shows the time with colorful LEDs and rewards you with a rainbow at the end.
+
 
 ![Timer in Action - Accelerated display](/assets/timer.gif)
 
